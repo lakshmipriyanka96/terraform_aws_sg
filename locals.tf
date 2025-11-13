@@ -1,0 +1,9 @@
+locals {
+    common_tags = {
+        project = var.project_name
+        Env = var.Environment
+        Terraform = true
+    }
+    common_name_suffix = "${var.project_name}-${var.Environment}" #roboshop-dev
+    
+}
