@@ -5,7 +5,7 @@ variable "Environment" {
     type = string
 }
 
-variable "sg_name" {
+variable "sg_names" {
     type = string
 }
 variable "sg_description" {
