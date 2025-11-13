@@ -6,13 +6,7 @@ terraform {
     }
   }
 
-    backend "s3" {
-     bucket = "priyas386"
-     key = "roboshop-dev-sg-1.0"
-     region = "us-east-1"
-     use_lockfile = true
-     encrypt = true
-    }
+
 }
   
 # Configure the AWS Provider
