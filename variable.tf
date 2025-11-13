@@ -1,6 +1,5 @@
 variable "project_name" {
     type = string
-
 }
 variable "Environment" {
     type = string
