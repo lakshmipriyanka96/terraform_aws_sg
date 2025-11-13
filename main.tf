@@ -14,7 +14,7 @@ resource "aws_security_group" "main" {
     var.sg_tags,
     local.common_tags,
     {
-  Name = "${local.common_name_suffix}-${var.sg_name}"
+  Name = "${local.common_name_suffix}-${var.sg_names}"
     }
 )
 }
