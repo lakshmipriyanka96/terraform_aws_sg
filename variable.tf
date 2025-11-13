@@ -4,7 +4,7 @@ variable "project_name" {
 variable "Environment" {
     type = string
 }
-variable "sg_names" {
+variable "sg_name" {
   type        = string
 }
 variable "sg_description" {
